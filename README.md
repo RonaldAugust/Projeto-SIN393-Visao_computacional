@@ -3,6 +3,28 @@ Projeto de Processamento de Imagens e Classificação de Objetos destinado a dis
 
 Este projeto tem como objetivo realizar o processamento de imagens para segmentação de objetos, extração de características geométricas e treinamento de um modelo de machine learning para classificação. A seguir, explicamos cada parte do projeto e seu funcionamento.
 
+Como Rodar o Projeto
+Pré-requisitos
+Configurar o ambiente com as seguintes dependências:
+Python 3.7 ou superior
+Bibliotecas Python:
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scikit-image
+opencv-python
+
+Comando para instalar todas as dependências pelo terminal:
+
+pip install numpy pandas matplotlib seaborn scikit-learn scikit-image opencv-python
+
+Linkar o dataset na main para funcionamento correto
+
+executar a main com o seguinte comando:
+python main.py
+
 Estrutura do Projeto
 O projeto é composto por funções que manipulam imagens, extraem informações sobre os objetos presentes e treinam um modelo de machine learning utilizando essas informações. A estrutura básica do código é a seguinte:
 
